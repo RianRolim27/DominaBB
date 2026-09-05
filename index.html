@@ -131,4 +131,269 @@
   .indice-item .idx-badge{margin-left:auto;font-size:11px;color:var(--text-mute);border:1px solid var(--line-strong);border-radius:20px;padding:3px 10px;white-space:nowrap;}
   .indice-foot{margin-top:18px;font-size:14px;color:var(--text-mute);}
 
-  .benefits-card{background:var(--bg-2);border
+  .benefits-card{background:var(--bg-2);border:1px solid var(--line-strong);border-radius:10px;padding:30px 32px;}
+  .benefits-card h3{font-size:14px;color:var(--text-mute);margin-bottom:18px;font-weight:500;}
+  .benefits-card ul{list-style:none;margin:0;padding:0;}
+  .benefits-card li{padding:10px 0;border-top:1px solid var(--line);font-size:15px;color:var(--text-soft);}
+  .benefits-card li:first-child{border-top:none;}
+  .benefits-card li::before{content:"—";color:var(--yellow);margin-right:10px;}
+  .benefits-note{margin-top:16px;font-size:11.5px;color:var(--text-mute);}
+  .includes{text-align:left;margin:30px 0;padding-top:26px;border-top:1px solid var(--line);}
+  .includes li{list-style:none;padding:8px 0;font-size:15.5px;color:var(--text-soft);}
+  .includes li::before{content:"—";color:var(--yellow);margin-right:10px;}
+  .guarantee-note{margin-top:22px;font-size:13.5px;color:var(--text-mute);}
+
+  .faq-item{border-top:1px solid var(--line);padding:22px 0;}
+  .faq-item:last-child{border-bottom:1px solid var(--line);}
+  .faq-item h3{font-size:16.5px;margin-bottom:8px;color:var(--text);}
+  .faq-item p{font-size:15.5px;margin:0;}
+
+  .final{background:var(--yellow);text-align:center;padding:80px 0;}
+  .final h2{font-size:32px;margin-bottom:18px;color:#0A0A0A;}
+  .final p{font-size:17px;color:#4a3a00;max-width:480px;margin:0 auto 30px;}
+  .final .btn{background:#0A0A0A;color:var(--text);}
+
+  footer{background:var(--bg);color:var(--text-mute);text-align:center;padding:28px 0;font-size:13px;border-top:1px solid var(--line);}
+
+  @media (max-width:820px){
+    .hero-grid{grid-template-columns:1fr;}
+    .hero h1{font-size:32px;}
+    .story-grid{grid-template-columns:1fr;gap:16px;}
+    .problem-list{grid-template-columns:1fr;}
+    .problem-item{border-right:none;border-bottom:1px solid var(--line);padding:24px 0;}
+    .problem-item:last-child{border-bottom:none;}
+    .fw-grid{grid-template-columns:1fr;}
+    .indice-grid{grid-template-columns:1fr;}
+    .offer-card{padding:32px 24px;}
+    section{padding:60px 0;}
+    .wrap{padding:0 22px;}
+  }
+</style>
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '2384381495702084');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=2384381495702084&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+</head>
+<body>
+
+<div class="nav">
+  <div class="wrap">
+    <span class="logo">Domina<span class="bb">BB</span></span>
+  </div>
+</div>
+
+<div class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="eyebrow">Preparação para o concurso do Banco do Brasil</p>
+      <h1>O material que eu usei pra estudar. <span class="accent">Revisado e atualizado pra você.</span></h1>
+      <p class="lede">DominaBB não é um curso, nem um método fechado. É o conteúdo real que usei nos meus estudos — dividido em 8 PDFs por tema, revisado e pronto pra te poupar tempo.</p>
+    </div>
+    <div class="benefits-card">
+      <h3>O que te espera no BB, de quem está lá dentro</h3>
+      <ul>
+        <li>Salário acima de R$ 4.300</li>
+        <li>Vale-alimentação acima de R$ 2.000</li>
+        <li>Participação nos lucros paga duas vezes no ano</li>
+        <li>Plano de saúde e odontológico (Cassi)</li>
+        <li>Previdência complementar (Previ)</li>
+        <li>Incentivo à formação superior, com parte custeada pelo banco</li>
+        <li>Auxílio-creche/babá</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<section class="story">
+  <div class="wrap story-grid">
+    <div class="route-holder">
+      <svg viewBox="0 0 380 460" xmlns="http://www.w3.org/2000/svg">
+        <line x1="60" y1="40" x2="60" y2="420" stroke="rgba(242,241,237,0.14)" stroke-width="1.5" stroke-dasharray="2 7"/>
+        <g>
+          <circle cx="60" cy="40" r="7" fill="#3E7BFA"/>
+          <text x="86" y="36" fill="#F2F1ED" font-family="Sora" font-size="13">começo de 2021</text>
+          <text x="86" y="55" fill="#6E6E6C" font-family="Sora" font-size="12">17 anos, recém-saído do ensino médio</text>
+        </g>
+        <g>
+          <circle cx="60" cy="130" r="7" fill="#3E7BFA"/>
+          <text x="86" y="126" fill="#F2F1ED" font-family="Sora" font-size="13">junho de 2021</text>
+          <text x="86" y="145" fill="#6E6E6C" font-family="Sora" font-size="12">edital sai, prova marcada pra setembro</text>
+        </g>
+        <g>
+          <circle cx="60" cy="220" r="7" fill="#3E7BFA"/>
+          <text x="86" y="216" fill="#F2F1ED" font-family="Sora" font-size="13">menos de 3 meses</text>
+          <text x="86" y="235" fill="#6E6E6C" font-family="Sora" font-size="12">pra estudar tudo, do zero</text>
+        </g>
+        <g>
+          <circle cx="60" cy="310" r="7" fill="#3E7BFA"/>
+          <text x="86" y="306" fill="#F2F1ED" font-family="Sora" font-size="13">hoje</text>
+          <text x="86" y="325" fill="#6E6E6C" font-family="Sora" font-size="12">o edital ainda não saiu</text>
+        </g>
+        <g>
+          <circle cx="60" cy="410" r="9" fill="none" stroke="#FFCC00" stroke-width="2"/>
+          <circle cx="60" cy="410" r="3.5" fill="#FFCC00"/>
+          <text x="86" y="406" fill="#F2F1ED" font-family="Sora" font-size="14" font-weight="600">esse é o seu tempo</text>
+          <text x="86" y="425" fill="#6E6E6C" font-family="Sora" font-size="12">o tempo que eu não tive</text>
+        </g>
+      </svg>
+    </div>
+    <div class="measure">
+      <p class="section-label">A história por trás do DominaBB</p>
+      <p>Em 2021, eu tinha meus <span class="accent">17 anos</span>, recém-saído do ensino médio e sem rumo profissional. Em junho daquele ano, o <span class="accent">Banco do Brasil</span> anunciou a abertura do concurso. A prova já estava marcada pra setembro — menos de três meses pra estudar tudo, do zero.<br>Mas eu sabia que ali estava minha oportunidade de <span class="accent">mudar de vida</span>.</p>
+      <p class="quote">Hoje, estou do outro lado da mesa. Vivo diariamente a rotina no Banco do Brasil, aproveitando os benefícios, o plano de carreira e os desafios de uma trajetória construída do zero.</p>
+      <p>O DominaBB nasceu desse aperto: prestei essa prova aos <span class="accent">17 anos</span> e fui <span class="accent">aprovado</span>. Revisei e atualizei o material que usei na época, pronto pra quem quer aproveitar esse tempo a mais e chegar mais preparado quando o edital sair.</p>
+      <p class="sign">— autor(a) do DominaBB</p>
+    </div>
+  </div>
+</section>
+
+<section class="method">
+  <div class="wrap">
+    <p class="section-label">O que é o DominaBB</p>
+    <h2 class="section-title measure">Não é um método. É o material que eu usei.</h2>
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">01</div>
+        <div>
+          <h3>O material real dos meus estudos</h3>
+          <p>O conteúdo que usei pra me preparar, dividido em 8 PDFs por tema, sem enrolação nem promessa de fórmula mágica.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">02</div>
+        <div>
+          <h3>Revisado e atualizado</h3>
+          <p>Passei o conteúdo a limpo e atualizei o que era preciso, pra chegar até você pronto pra usar.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">03</div>
+        <div>
+          <h3>Organizado por conhecimentos básicos e específicos</h3>
+          <p>Seguindo a estrutura que costuma aparecer no edital do BB, sem depender de garimpar conteúdo espalhado.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="forwhom">
+  <div class="wrap">
+    <p class="section-label">Pra quem é</p>
+    <h2 class="section-title measure">O DominaBB é (e não é) pra você.</h2>
+    <div class="fw-grid">
+      <div class="fw-col fw-yes">
+        <h3>É pra você que</h3>
+        <ul>
+          <li>Quer se antecipar e estudar antes mesmo do edital sair</li>
+          <li>Está perdido no volume de conteúdo espalhado por aí</li>
+          <li>Prefere um material direto, sem enrolação, ao invés de garimpar sozinho</li>
+        </ul>
+      </div>
+      <div class="fw-col fw-no">
+        <h3>Não é pra você que</h3>
+        <ul>
+          <li>Busca uma fórmula mágica sem nenhum esforço de estudo</li>
+          <li>Espera um curso em vídeo ou uma mentoria — o DominaBB é um PDF</li>
+          <li>Ainda não decidiu se vai prestar o concurso do BB</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="indice" id="indice">
+  <div class="wrap">
+    <p class="section-label">Prévia do conteúdo</p>
+    <h2 class="section-title measure">O material é dividido em 8 PDFs, um por tema.</h2>
+    <p class="measure">Mais de 340 páginas de conteúdo revisado, divididas em 8 PDFs — um por tema. Você escolhe por onde começar e estuda o que precisa, no seu ritmo.</p>
+    <div class="indice-grid">
+      <div class="indice-item"><span class="idx-num">01</span><span class="idx-name">Língua Portuguesa</span><span class="idx-badge">PDF</span></div>
+      <div class="indice-item"><span class="idx-num">02</span><span class="idx-name">Língua Inglesa</span><span class="idx-badge">PDF</span></div>
+      <div class="indice-item"><span class="idx-num">03</span><span class="idx-name">Matemática</span><span class="idx-badge">PDF</span></div>
+      <div class="indice-item"><span class="idx-num">04</span><span class="idx-name">Atualidades do Mercado Financeiro</span><span class="idx-badge">PDF</span></div>
+      <div class="indice-item"><span class="idx-num">05</span><span class="idx-name">Matemática Financeira</span><span class="idx-badge">PDF</span></div>
+      <div class="indice-item"><span class="idx-num">06</span><span class="idx-name">Conhecimentos Bancários</span><span class="idx-badge">PDF</span></div>
+      <div class="indice-item"><span class="idx-num">07</span><span class="idx-name">Conhecimentos de Informática</span><span class="idx-badge">PDF</span></div>
+      <div class="indice-item"><span class="idx-num">08</span><span class="idx-name">Vendas e Negociação</span><span class="idx-badge">PDF</span></div>
+    </div>
+    <p class="indice-foot">Cada PDF traz o índice completo do tema, com página de referência de cada assunto.</p>
+  </div>
+</section>
+
+<section class="offer" id="oferta">
+  <div class="wrap">
+    <div class="offer-card">
+      <p class="section-label">A oferta</p>
+      <h2>DominaBB — PDF completo</h2>
+      <p style="font-size:15px;">O material que usei pra estudar, revisado e atualizado, organizado por conhecimentos básicos e conhecimentos específicos.</p>
+      <div class="price-line">
+        <span class="price-big">R$ 29,90</span>
+        <p class="price-note">pagamento único, acesso vitalício</p>
+      </div>
+      <ul class="includes">
+        <li>8 PDFs, um por tema — veja o índice completo acima</li>
+        <li>Conteúdo revisado e atualizado com a legislação e as atualidades de 2026</li>
+        <li>Acesso vitalício: o material é seu, estude no seu tempo</li>
+        <li>Organizado por conhecimentos básicos e conhecimentos específicos</li>
+      </ul>
+      <div class="payment-row">
+        <span class="pay-pill">Pix</span>
+        <span class="pay-pill">Cartão em até 3x</span>
+        <span class="pay-note">menos de R$10 por parcela</span>
+      </div>
+      <a href="https://pay.cakto.com.br/38qnk67_1079248" class="btn" style="width:100%;">Quero garantir o meu DominaBB</a>
+      <p class="guarantee-note">Garantia de 7 dias: se não fizer sentido pra você, devolvemos 100% do valor. Como o acesso é vitalício e sempre atualizado, o único risco aqui é decidir estudar depois.</p>
+    </div>
+  </div>
+</section>
+
+<section class="faq">
+  <div class="wrap measure">
+    <p class="section-label">Perguntas frequentes</p>
+    <h2 class="section-title">Antes de decidir</h2>
+    <div class="faq-item">
+      <h3>O DominaBB é um curso ou um método?</h3>
+      <p>Não. É o material em PDF que usei nos meus estudos, revisado e atualizado — pensado pra te dar o caminho, não uma fórmula fechada.</p>
+    </div>
+    <div class="faq-item">
+      <h3>O material cobre todos os temas do edital?</h3>
+      <p>O conteúdo está organizado por conhecimentos básicos e conhecimentos específicos, seguindo a estrutura que costuma aparecer no edital do BB.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Em que formato recebo o material?</h3>
+      <p>O DominaBB é dividido em 8 PDFs, um por tema, com acesso imediato após a confirmação da compra.</p>
+    </div>
+  </div>
+</section>
+
+<div class="final">
+  <div class="wrap">
+    <h2>Aproveite o tempo que o edital ainda não tirou de você.</h2>
+    <p>Comece a estudar com o material revisado, antes que o prazo aperte.</p>
+    <a href="https://pay.cakto.com.br/38qnk67_1079248" class="btn">Quero o DominaBB por R$ 29,90</a>
+  </div>
+</div>
+
+<footer>
+  <div class="wrap">
+    <span class="logo" style="font-size:16px;display:block;margin-bottom:8px;">Domina<span class="bb">BB</span></span>
+    DominaBB — material de estudo independente. Não possui vínculo oficial com o Banco do Brasil.
+  </div>
+</footer>
+
+</body>
+</html>
